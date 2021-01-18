@@ -1,0 +1,17 @@
+<%- include("./includes/head.ejs") %>
+</head>
+<body>
+    <%- include("./includes/navigation.ejs") %>
+    <div class="main_content">
+        <h1> <%= pageHead %> </h1>
+        <form>
+            <input class="form-control col-md-5" type="text" name="" placeholder="Your location">
+            <br>
+            <button class="btn btn-secondary" type="submit">Submit</button>
+        </form>
+        <p id="message_1"></p>
+        <p id="message_2"></p>
+    </div>
+    <script src="js/weather.js"></script>
+</body>
+</html>
